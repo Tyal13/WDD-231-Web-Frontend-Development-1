@@ -1,0 +1,10 @@
+# Graded project has its own repo: https://github.com/Tyal13/nps
+nps/
+
+# Pristine clone of the instructor's upstream template
+_matkat99-upstream-clone/
+
+node_modules/
+dist/
+.env
+.DS_Store
