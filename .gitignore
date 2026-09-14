@@ -1,10 +1,17 @@
-# Graded project has its own repo: https://github.com/Tyal13/nps
-nps/
+# --- Personal notes / clippings / scratch work ---
+# Untracked on purpose so the graded repo stays clean.
+# To start tracking any of these, delete its line and `git add` the folder.
+Clippings/
+notes/
+scratch/
 
-# Pristine clone of the instructor's upstream template
+# --- Parked copies of the original repos (safe to delete) ---
+_nps-old-repo/
 _matkat99-upstream-clone/
 
+# --- Build + tooling ---
 node_modules/
 dist/
+pnpm-lock.yaml
 .env
 .DS_Store
