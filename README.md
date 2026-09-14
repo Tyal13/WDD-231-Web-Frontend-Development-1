@@ -6,6 +6,13 @@ National Parks Service project for the **Prove: NPS 1-7** assignment series
 (W01, W02, W03, W05, W07, W09, W12). Started from the
 [matkat99/nps](https://github.com/matkat99/nps) course template.
 
+## Live site
+
+**https://wdd231webfrontenddev1.netlify.app**
+
+Deployed from `main` on every push. This is the URL submitted to the
+"NPS Links" Teams channel.
+
 ## Setup
 
 ```
