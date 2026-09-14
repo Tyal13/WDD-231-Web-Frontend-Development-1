@@ -6,6 +6,10 @@ National Parks Service project for the **Prove: NPS 1-7** assignment series
 (W01, W02, W03, W05, W07, W09, W12). Started from the
 [matkat99/nps](https://github.com/matkat99/nps) course template.
 
+## Repository
+
+<https://github.com/Tyal13/WDD-231-Web-Frontend-Development-1> (public)
+
 ## Live site
 
 **https://wdd231webfrontenddev1.netlify.app**
