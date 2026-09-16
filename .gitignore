@@ -1,17 +1,10 @@
-# --- Personal notes / clippings / scratch work ---
-# Untracked on purpose so the graded repo stays clean.
-# To start tracking any of these, delete its line and `git add` the folder.
+/node_modules
+/pnpm-lock.yaml
+.env
+.DS_Store
+dist
+
+# Personal notes / clippings / scratch. Delete a line and `git add` to track it.
 Clippings/
 notes/
 scratch/
-
-# --- Parked copies of the original repos (safe to delete) ---
-_nps-old-repo/
-_matkat99-upstream-clone/
-
-# --- Build + tooling ---
-node_modules/
-dist/
-pnpm-lock.yaml
-.env
-.DS_Store

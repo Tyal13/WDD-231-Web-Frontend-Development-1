@@ -1,48 +1,30 @@
-# WDD 231 Web Frontend Development I
+# WDD 231 personal project
 
-BYU-Idaho, Fall 2026. Anderson, Julie Ann. MW 9:00-10:00 AM, STC 341.
+## Description
 
-National Parks Service project for the **Prove: NPS 1-7** assignment series
-(W01, W02, W03, W05, W07, W09, W12). Started from the
-[matkat99/nps](https://github.com/matkat99/nps) course template.
+Use this as a starting point to complete the WDD 231 personal activity. We will be pulling data from the National Parks API and building a website for the park of your choice with it.
 
-## Repository
+## Prerequisites
 
-<https://github.com/Tyal13/WDD-231-Web-Frontend-Development-1> (public)
-
-## Live site
-
-**https://wdd231webfrontenddev1.netlify.app**
-
-Deployed from `main` on every push. This is the URL submitted to the
-"NPS Links" Teams channel.
+- You must have Node installed. visit https://byui-cit.github.io/learning-modules/modules/general/node-installation/ for instructions
 
 ## Setup
 
-```
-npm install
-npm run start     # dev server on localhost:5173
-npm run build     # production build into dist/
-```
+- `npm install`
+- `npm run start` starts up a local server and updates on any JS or CSS/SCSS changes.
 
-Requires a free National Park Service API key. Copy `src/.env.sample` to `src/.env`
-and set `VITE_NPS_API_KEY`. Get a key at <https://www.nps.gov/subjects/developer/get-started.htm>.
+## Other commands
 
-Note: `VITE_`-prefixed variables are embedded in the client bundle by design, so this
-key is visible in the built output. That is expected for this assignment. Never use the
-pattern for a real secret.
+- `npm run build` to build final files when you are ready to turn in.
 
-## Deployment (Netlify)
+---
 
-| Setting | Value |
-|---|---|
-| Build command | `npm run build` |
-| Publish directory | `dist` |
-| Branch | `main` |
+## This copy
 
-`dist/` is gitignored because Netlify builds it on every push.
+BYU-Idaho WDD 231 Web Frontend Development I, Fall 2026. Anderson, Julie Ann.
+MW 9:00-10:00 AM, STC 341.
 
-## Notes
+- **Live site:** <https://wdd231webfrontenddev1.netlify.app>
+- **Repository:** <https://github.com/Tyal13/WDD-231-Web-Frontend-Development-1>
 
-Personal notes and clippings are gitignored so the graded repo stays clean.
-See `.gitignore` to re-enable tracking.
+Netlify deploys from `main` on every push: build `npm run build`, publish `dist`.
