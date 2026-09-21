@@ -8,3 +8,5 @@ dist
 Clippings/
 notes/
 scratch/
+.claude/
+.gitignore
